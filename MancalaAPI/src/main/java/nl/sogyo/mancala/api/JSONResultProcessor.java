@@ -65,9 +65,9 @@ public class JSONResultProcessor {
 		jsonPlayer.put("name", mancala.getPlayerName(playerIndex));
 		
 		if (mancala.isToMovePlayer(playerIndex)) {
-			jsonPlayer.put("hasTurn", "true");
+			jsonPlayer.put("hasTurn", true);
 		} else {
-			jsonPlayer.put("hasTurn", "false");
+			jsonPlayer.put("hasTurn", false);
 		}
 		
 		JSONArray pits = new JSONArray();

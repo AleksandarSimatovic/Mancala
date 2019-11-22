@@ -1,0 +1,132 @@
+
+* {
+  box-sizing: border-box;
+}
+
+#playersPlaying {
+    text-align:center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 3px 3px black;
+    margin-top: 5%
+}
+
+#playerTurn{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-bottom: 50px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+#winnerMSG{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+body{
+    background-image: url("pictures/background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 10px;
+  margin-top: 4%;
+}
+
+#pit14 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#pit7 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 8;
+}
+
+.pitDiv{
+    margin: 10px;
+}
+
+.btnPit{
+    display: block;
+    background-color: #c69f6c;
+    font-size: 72px;
+    border-radius: 15%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    box-shadow: 1px 3px 30px 5px black inset;
+}
+
+.btnPit:hover{
+    background-color: #815e32;
+}
+
+
+.loginDiv {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  width: 40%;
+  color: white;
+  font-weight: bold;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 8%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+#startBtn {
+  background-color: #c69f6c;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 40%;
+  opacity: 1;
+  border: none;
+}
+
+#startBtn:hover {
+    background-color: #815e32;
+}
+
+#errorLogin{
+    margin-bottom: 10px;
+}
+
+div.loginMancala{
+    content:url("pictures/mancalaLogo.png");
+    margin-left: 8%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto;
+}

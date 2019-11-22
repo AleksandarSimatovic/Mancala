@@ -43,8 +43,7 @@ public class MancalaInitialize {
 		mancala.setPlayerName(namePlayer1, 1);
 		mancala.setPlayerName(namePlayer2, 2);
 		
-		session.setAttribute("mancala", mancala);		
-		
+		session.setAttribute("mancala", mancala);
 		String output = new JSONResultProcessor().createJSONResponse(mancala);
 		
 		return Response.status(200).entity(output).build();
