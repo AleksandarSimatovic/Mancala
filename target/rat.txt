@@ -1,0 +1,1026 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2020-03-10T09:18:08+01:00
+
+Notes: 0
+Binaries: 24
+Archives: 34
+Standards: 23
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+21 Unknown Licenses
+
+*****************************************************
+
+Files with unapproved licenses:
+
+  jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF
+  jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+  Mancala.java
+  MancalaAPI/pom.xml
+  MancalaAPI/src/main/java/nl/sogyo/mancala/api/JSONResultProcessor.java
+  MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaGame.java
+  MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaInitialize.java
+  MancalaAPI/src/main/java/nl/sogyo/mancala/api/PlayerData.java
+  MancalaAPI/src/main/webapp/index.html
+  MancalaAPI/src/main/webapp/styles.css
+  MancalaAPI/src/main/webapp/WEB-INF/web.xml
+  MancalaAPI/target/Mancala API/index.html
+  MancalaAPI/target/Mancala API/styles.css
+  MancalaAPI/target/Mancala API/WEB-INF/web.xml
+  MancalaAPI/target/maven-archiver/pom.properties
+  MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+  MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+  META-INF/MANIFEST.MF
+  META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+  pom.xml
+  README.md
+
+*****************************************************
+
+Archives:
+
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/aopalliance-repackaged-2.4.0-b25.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/hamcrest-core-1.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-api-2.4.0-b25.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-locator-2.4.0-b25.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-utils-2.4.0-b25.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-annotations-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-core-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-databind-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-jaxrs-base-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-jaxrs-json-provider-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-module-jaxb-annotations-2.5.4.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/javassist-3.18.1-GA.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/javax.activation-api-1.2.0.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/javax.annotation-api-1.2.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/javax.inject-2.4.0-b25.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jaxb-api-2.3.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-client-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-common-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-container-servlet-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-container-servlet-core-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-entity-filtering-2.23.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-guava-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-media-jaxb-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-media-json-jackson-2.23.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-server-2.19.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/json-simple-1.1.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/junit-4.10.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/MancalaDomain-1.0.0-SNAPSHOT.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/osgi-resource-locator-1.0.1.jar
+ 
+ + MancalaAPI/target/Mancala API/WEB-INF/lib/validation-api-1.1.0.Final.jar
+ 
+ + MancalaAPI/target/Mancala API.war
+ 
+ + MancalaDomain-1.0.0-SNAPSHOT.jar
+ 
+ + maven-install-plugin-3.0.0-M1.jar
+ 
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+ !????? jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF
+   jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.properties
+ !????? jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+  B     jar/MancalaDomain-1.0.0-SNAPSHOT/nl/sogyo/mancala/domain/Kalaha.class
+  B     jar/MancalaDomain-1.0.0-SNAPSHOT/nl/sogyo/mancala/domain/Mancala.class
+  B     jar/MancalaDomain-1.0.0-SNAPSHOT/nl/sogyo/mancala/domain/MancalaImpl.class
+  B     jar/MancalaDomain-1.0.0-SNAPSHOT/nl/sogyo/mancala/domain/Player.class
+  B     jar/MancalaDomain-1.0.0-SNAPSHOT/nl/sogyo/mancala/domain/Recess.class
+ !????? Mancala.java
+ !????? MancalaAPI/pom.xml
+ !????? MancalaAPI/src/main/java/nl/sogyo/mancala/api/JSONResultProcessor.java
+ !????? MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaGame.java
+ !????? MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaInitialize.java
+ !????? MancalaAPI/src/main/java/nl/sogyo/mancala/api/PlayerData.java
+ !????? MancalaAPI/src/main/webapp/index.html
+  B     MancalaAPI/src/main/webapp/pictures/background.jpg
+  B     MancalaAPI/src/main/webapp/pictures/mancalaLogo.png
+  B     MancalaAPI/src/main/webapp/pictures/mancalaLogoNo.png
+ !????? MancalaAPI/src/main/webapp/styles.css
+ !????? MancalaAPI/src/main/webapp/WEB-INF/web.xml
+  B     MancalaAPI/target/classes/nl/sogyo/mancala/api/JSONResultProcessor.class
+  B     MancalaAPI/target/classes/nl/sogyo/mancala/api/MancalaGame.class
+  B     MancalaAPI/target/classes/nl/sogyo/mancala/api/MancalaInitialize.class
+  B     MancalaAPI/target/classes/nl/sogyo/mancala/api/PlayerData.class
+ !????? MancalaAPI/target/Mancala API/index.html
+  B     MancalaAPI/target/Mancala API/pictures/background.jpg
+  B     MancalaAPI/target/Mancala API/pictures/mancalaLogo.png
+  B     MancalaAPI/target/Mancala API/pictures/mancalaLogoNo.png
+ !????? MancalaAPI/target/Mancala API/styles.css
+  B     MancalaAPI/target/Mancala API/WEB-INF/classes/nl/sogyo/mancala/api/JSONResultProcessor.class
+  B     MancalaAPI/target/Mancala API/WEB-INF/classes/nl/sogyo/mancala/api/MancalaGame.class
+  B     MancalaAPI/target/Mancala API/WEB-INF/classes/nl/sogyo/mancala/api/MancalaInitialize.class
+  B     MancalaAPI/target/Mancala API/WEB-INF/classes/nl/sogyo/mancala/api/PlayerData.class
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/aopalliance-repackaged-2.4.0-b25.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/hamcrest-core-1.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-api-2.4.0-b25.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-locator-2.4.0-b25.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/hk2-utils-2.4.0-b25.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-annotations-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-core-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-databind-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-jaxrs-base-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-jaxrs-json-provider-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jackson-module-jaxb-annotations-2.5.4.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/javassist-3.18.1-GA.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/javax.activation-api-1.2.0.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/javax.annotation-api-1.2.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/javax.inject-2.4.0-b25.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jaxb-api-2.3.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-client-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-common-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-container-servlet-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-container-servlet-core-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-entity-filtering-2.23.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-guava-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-media-jaxb-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-media-json-jackson-2.23.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/jersey-server-2.19.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/json-simple-1.1.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/junit-4.10.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/MancalaDomain-1.0.0-SNAPSHOT.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/osgi-resource-locator-1.0.1.jar
+  A     MancalaAPI/target/Mancala API/WEB-INF/lib/validation-api-1.1.0.Final.jar
+ !????? MancalaAPI/target/Mancala API/WEB-INF/web.xml
+  A     MancalaAPI/target/Mancala API.war
+ !????? MancalaAPI/target/maven-archiver/pom.properties
+ !????? MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ !????? MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+  A     MancalaDomain-1.0.0-SNAPSHOT.jar
+  A     maven-install-plugin-3.0.0-M1.jar
+ !????? META-INF/MANIFEST.MF
+   META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.properties
+ !????? META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+  B     nl/sogyo/mancala/domain/Kalaha.class
+  B     nl/sogyo/mancala/domain/Mancala.class
+  B     nl/sogyo/mancala/domain/MancalaImpl.class
+  B     nl/sogyo/mancala/domain/Player.class
+  B     nl/sogyo/mancala/domain/Recess.class
+ !????? pom.xml
+ !????? README.md
+ 
+*****************************************************
+
+ Printing headers for text files without a valid license header...
+ 
+=====================================================
+== File: jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/MANIFEST.MF
+=====================================================
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.5.2
+Built-By: rvvugt
+Build-Jdk: 9.0.4
+
+
+=====================================================
+== File: jar/MancalaDomain-1.0.0-SNAPSHOT/META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+=====================================================
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<name>MancalaDomainForwardInitializationComplete</name>
+
+	<groupId>nl.sogyo.mancala</groupId>
+	<artifactId>MancalaDomain</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.20</version>
+				<configuration>
+					<excludes>
+						<exclude>AllTests.java</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+
+=====================================================
+== File: Mancala.java
+=====================================================
+package nl.sogyo.mancala.domain;
+
+public interface Mancala {
+	
+	/**
+	 * Method for returning the specified players name. 
+	 * 
+	 * @param playerIndex Index of the player, 1 for the first player and 2 for the second player
+	 * @return Name of de specified player.
+	 * @throws IllegalStateException If the players index is not 1 or 2.
+	 */
+	String getPlayerName(int playerIndex) throws IllegalStateException;
+	
+	/**
+	 * Method for giving the specified player his or her name.
+	 * 
+	 * @param name Name for the player.
+	 * @param playerIndex Index of the player, 1 for the first player and 2 for the second player
+	 * @throws IllegalStateException If the players index is not 1 or 2.
+	 */
+	void setPlayerName(String name, int playerIndex) throws IllegalStateException;
+	
+	/**
+	 * Method indicating if the specified player has the next turn of not.
+	 * 
+	 * @param playerIndex Index of the player, 1 for the first player and 2 for the second player.
+	 * @return True if the specified player has the next turn, otherwise False.
+	 * @throws IllegalStateException If the players index is not 1 or 2.
+	 */
+	boolean isToMovePlayer(int playerIndex) throws IllegalStateException;
+	
+	/**
+	 * Method for playing the specified recess. Index is as specified below:
+	 * 
+	 *    13 12 11 10  9  8
+	 * 14                    7
+	 *     1  2  3  4  5  6
+	 * 
+	 * @param index Index of the recess to be played.
+	 * @return 15 item long Array with the current state of the game. The 15th item indicates which player has the next turn (possible values are 1 or 2).
+	 */
+	int[] playRecess(int index);
+	
+	/**
+	 * Method for returning the amount of stones in de specified pit. Index is as specified below:
+	 * 
+	 *    13 12 11 10  9  8
+	 * 14                    7
+	 *     1  2  3  4  5  6
+	 * 
+
+=====================================================
+== File: MancalaAPI/pom.xml
+=====================================================
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>nl.sogyo.mancala</groupId>
+	<artifactId>MancalaAPI</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Mancala API</name>
+
+	<properties>
+		<jettyVersion>9.4.8.v20171121</jettyVersion>
+		<servlet.version>4.0.0</servlet.version>
+		<jersey.version>2.19</jersey.version>
+		<jaxrs.version>2.0.1</jaxrs.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>nl.sogyo.mancala</groupId>
+			<artifactId>MancalaDomain</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- JAX-RS -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>javax.ws.rs-api</artifactId>
+			<version>${jaxrs.version}</version>
+		</dependency>
+		<!-- Jersey 2.19 -->
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+
+=====================================================
+== File: MancalaAPI/src/main/java/nl/sogyo/mancala/api/JSONResultProcessor.java
+=====================================================
+/**
+ * 
+ */
+package nl.sogyo.mancala.api;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import nl.sogyo.mancala.domain.Mancala;
+
+/**
+ * @author rvvugt
+ *
+ */
+public class JSONResultProcessor {
+
+	/**
+	 * @param mancala
+	 * @param player1
+	 * @param player2
+	 * @return
+	 */
+	public String createJSONResponse(Mancala mancala) {
+		
+		JSONObject result = new JSONObject();
+		
+		JSONObject jsonPlayer1 = this.createJSONPlayer(1, mancala, 1);
+		JSONObject jsonPlayer2 = this.createJSONPlayer(8, mancala, 2);
+        
+		JSONArray players = new JSONArray();
+        players.add(jsonPlayer1);
+        players.add(jsonPlayer2);
+        
+        result.put("players", players);
+        
+        JSONObject gameStatus = new JSONObject();
+        if (mancala.isEndOfGame()) {
+        	gameStatus.put("endOfGame", "true");
+        	gameStatus.put("winner", mancala.getWinnersName());
+        } else {
+        	gameStatus.put("endOfGame", "false");
+        }
+        result.put("gameStatus", gameStatus);
+        
+		return result.toJSONString();
+	}
+	
+	/**
+	 * @param startIndex
+	 * @param player
+
+=====================================================
+== File: MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaGame.java
+=====================================================
+/**
+ * 
+ */
+package nl.sogyo.mancala.api;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import nl.sogyo.mancala.domain.Mancala;
+import nl.sogyo.mancala.domain.MancalaImpl;
+
+/**
+ * @author rvvugt
+ *
+ */
+@Path("/play")
+public class MancalaGame {
+	
+	// Example call ==> http://localhost/mancala/api/play/3
+	@PUT
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("/{pit}")
+	public Response playGet(
+			@PathParam("pit") String pit, 
+			@Context HttpServletRequest request) {
+		
+		//TODO: Implement this method!
+		HttpSession session= request.getSession();
+		Mancala mancala = (Mancala) session.getAttribute("mancala");
+
+		mancala.playRecess(Integer.parseInt(pit));
+
+		session.setAttribute("mancala", mancala);
+		String output = (new JSONResultProcessor()).createJSONResponse(mancala);
+		return Response.status(200).entity(output).build();
+
+	}
+	
+}
+
+=====================================================
+== File: MancalaAPI/src/main/java/nl/sogyo/mancala/api/MancalaInitialize.java
+=====================================================
+/**
+ * 
+ */
+package nl.sogyo.mancala.api;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import nl.sogyo.mancala.domain.Mancala;
+import nl.sogyo.mancala.domain.MancalaImpl;
+
+/**
+ * @author rvvugt
+ *
+ */
+@Path("players")
+public class MancalaInitialize {
+
+	/**
+	 * @param request
+	 * @return
+	 */
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response initialize(
+			@Context HttpServletRequest request, 
+			PlayerData players) {
+		
+		HttpSession session= request.getSession(true);
+		Mancala mancala = new MancalaImpl();
+		
+		String namePlayer1 = players.nameplayer1;
+		String namePlayer2 = players.nameplayer2;
+		
+		mancala.setPlayerName(namePlayer1, 1);
+		mancala.setPlayerName(namePlayer2, 2);
+		
+		session.setAttribute("mancala", mancala);
+		String output = new JSONResultProcessor().createJSONResponse(mancala);
+		
+		return Response.status(200).entity(output).build();
+	}
+
+=====================================================
+== File: MancalaAPI/src/main/java/nl/sogyo/mancala/api/PlayerData.java
+=====================================================
+/**
+ * 
+ */
+package nl.sogyo.mancala.api;
+
+/**
+ * @author rvvugt
+ *
+ */
+public class PlayerData {
+
+	String nameplayer1;
+	String nameplayer2;
+
+	public String getPlayername1() {
+		return nameplayer1;
+	}
+
+	public void setNameplayer1(String nameplayer1) {
+		this.nameplayer1 = nameplayer1;
+	}
+
+	public String getPlayername2() {
+		return nameplayer2;
+	}
+
+	public void setNameplayer2(String nameplayer2) {
+		this.nameplayer2 = nameplayer2;
+	}
+}
+
+=====================================================
+== File: MancalaAPI/src/main/webapp/index.html
+=====================================================
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mancala</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div id="app">
+            <start-screen
+                v-if="!gameStarted"
+                v-on:players-confirmed="startGame">
+            </start-screen>
+            
+            <game-screen
+                v-else
+                v-bind:game-state="gameState">
+            </game-screen>
+        </div>
+
+        <script>
+
+            /**
+             * The screen shown before the game starts, prompting players to enter their names.
+             */
+            Vue.component('start-screen', {
+                data() {
+                    return {
+                        playerOne: undefined,
+                        playerTwo: undefined,
+                        errorMessage: "",
+                    }
+                },
+                template: `
+                    <div class="loginDiv">
+
+                        <div class="loginMancala">
+                        </div>
+
+                        <div id="errorLogin">
+                            {{ errorMessage }} <br>
+                        </div>
+
+                        <input type="text"
+                            placeholder="Player 1 name"
+                            v-model="playerOne" />
+
+                        <input type="text"
+                            placeholder="Player 2 name"
+
+=====================================================
+== File: MancalaAPI/src/main/webapp/styles.css
+=====================================================
+
+* {
+  box-sizing: border-box;
+}
+
+#playersPlaying {
+    text-align:center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 3px 3px black;
+    margin-top: 5%
+}
+
+#playerTurn{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-bottom: 50px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+#winnerMSG{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+body{
+    background-image: url("pictures/background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 10px;
+  margin-top: 4%;
+}
+
+#pit14 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+=====================================================
+== File: MancalaAPI/src/main/webapp/WEB-INF/web.xml
+=====================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="false" version="3.1">
+  <servlet>
+    <servlet-name>jersey-serlvet</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>nl.sogyo.mancala.api</param-value>
+    </init-param>
+    <init-param>
+      <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jersey-serlvet</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
+
+=====================================================
+== File: MancalaAPI/target/Mancala API/index.html
+=====================================================
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mancala</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div id="app">
+            <start-screen
+                v-if="!gameStarted"
+                v-on:players-confirmed="startGame">
+            </start-screen>
+            
+            <game-screen
+                v-else
+                v-bind:game-state="gameState">
+            </game-screen>
+        </div>
+
+        <script>
+
+            /**
+             * The screen shown before the game starts, prompting players to enter their names.
+             */
+            Vue.component('start-screen', {
+                data() {
+                    return {
+                        playerOne: undefined,
+                        playerTwo: undefined,
+                        errorMessage: "",
+                    }
+                },
+                template: `
+                    <div class="loginDiv">
+
+                        <div class="loginMancala">
+                        </div>
+
+                        <div id="errorLogin">
+                            {{ errorMessage }} <br>
+                        </div>
+
+                        <input type="text"
+                            placeholder="Player 1 name"
+                            v-model="playerOne" />
+
+                        <input type="text"
+                            placeholder="Player 2 name"
+
+=====================================================
+== File: MancalaAPI/target/Mancala API/styles.css
+=====================================================
+
+* {
+  box-sizing: border-box;
+}
+
+#playersPlaying {
+    text-align:center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 3px 3px black;
+    margin-top: 5%
+}
+
+#playerTurn{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3%;
+    margin-bottom: 50px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+#winnerMSG{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: #c69f6c;
+    text-shadow: 2px 2px black;
+}
+
+body{
+    background-image: url("pictures/background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 10px;
+  margin-top: 4%;
+}
+
+#pit14 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+=====================================================
+== File: MancalaAPI/target/Mancala API/WEB-INF/web.xml
+=====================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="false" version="3.1">
+  <servlet>
+    <servlet-name>jersey-serlvet</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>nl.sogyo.mancala.api</param-value>
+    </init-param>
+    <init-param>
+      <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jersey-serlvet</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
+
+=====================================================
+== File: MancalaAPI/target/maven-archiver/pom.properties
+=====================================================
+#Created by Apache Maven 3.6.2
+groupId=nl.sogyo.mancala
+artifactId=MancalaAPI
+version=0.1-SNAPSHOT
+
+=====================================================
+== File: MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+=====================================================
+nl\sogyo\mancala\api\PlayerData.class
+nl\sogyo\mancala\api\JSONResultProcessor.class
+nl\sogyo\mancala\api\MancalaGame.class
+nl\sogyo\mancala\api\MancalaInitialize.class
+
+=====================================================
+== File: MancalaAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+=====================================================
+C:\Users\asimatovic\GitProjecten\mancala-mvc-java\MancalaAPI\src\main\java\nl\sogyo\mancala\api\MancalaInitialize.java
+C:\Users\asimatovic\GitProjecten\mancala-mvc-java\MancalaAPI\src\main\java\nl\sogyo\mancala\api\PlayerData.java
+C:\Users\asimatovic\GitProjecten\mancala-mvc-java\MancalaAPI\src\main\java\nl\sogyo\mancala\api\JSONResultProcessor.java
+C:\Users\asimatovic\GitProjecten\mancala-mvc-java\MancalaAPI\src\main\java\nl\sogyo\mancala\api\MancalaGame.java
+
+=====================================================
+== File: META-INF/MANIFEST.MF
+=====================================================
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.5.2
+Built-By: rvvugt
+Build-Jdk: 9.0.4
+
+
+=====================================================
+== File: META-INF/maven/nl.sogyo.mancala/MancalaDomain/pom.xml
+=====================================================
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<name>MancalaDomainForwardInitializationComplete</name>
+
+	<groupId>nl.sogyo.mancala</groupId>
+	<artifactId>MancalaDomain</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.20</version>
+				<configuration>
+					<excludes>
+						<exclude>AllTests.java</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+
+=====================================================
+== File: pom.xml
+=====================================================
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<parent>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-plugins</artifactId>
+<version>33</version>
+<relativePath>../../pom/maven/maven-plugins/pom.xml</relativePath>
+</parent>
+<artifactId>maven-install-plugin</artifactId>
+<version>3.0.0-M1</version>
+<packaging>maven-plugin</packaging>
+<name>Apache Maven Install Plugin</name>
+<description>
+Copies the project artifacts to the user's local repository.
+</description>
+<inceptionYear>2004</inceptionYear>
+<prerequisites>
+<maven>${mavenVersion}</maven>
+</prerequisites>
+<scm>
+<connection>
+scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+</connection>
+<developerConnection>
+scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+</developerConnection>
+<url>
+https://github.com/apache/maven-install-plugin/tree/${project.scm.tag}
+</url>
+<tag>maven-install-plugin-3.0.0-M1</tag>
+</scm>
+<issueManagement>
+<system>jira</system>
+<url>https://issues.apache.org/jira/browse/MINSTALL</url>
+</issueManagement>
+<ciManagement>
+<system>Jenkins</system>
+<url>
+https://builds.apache.org/job/maven-box/job/maven-install-plugin/
+</url>
+</ciManagement>
+<distributionManagement>
+<site>
+<id>apache.website</id>
+<url>
+scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}
+</url>
+</site>
+</distributionManagement>
+<properties>
+
+=====================================================
+== File: README.md
+=====================================================
+# Mancala MVC Java
+
+Read this readme carefully before you start working on the Mancala MVC assignment.
+
+
+Maven
+-----
+
+Use Maven to compile/build/run your project
+
+==> [Maven Home](https://maven.apache.org/)
+
+Guide to installing 3rd party JARs
+
+==> [Maven 3rd Party JARs](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
+
+
+Using the MancalaAPI project
+----------------------------
+
+The MancalaAPI has a dependency on the MancalaDomain so make sure you do the following:
+
+- Implement the Mancala interface (Mancala.java) in your own Mancala Domain project, or
+- Use the MancalaDomainForwardInitializationComplete project provided as a JAR
+
+(both can be found in the root of this repo)
+
+### Using the Mancala interface
+
+Copy the Mancala interface into the right package within your domain project and make a class that implements this interface and calls your domein objects for the specified methods. Than run the command below from within your MancalaDomein project to install the MancalaDomain JAR into your local Maven repository so that the MancalaAPI project can find it:
+
+    C\>mvn clean install
+
+If you make a change in the MancalaDomain project rerun this step to make sure the change ends up in your local Maven repository.
+
+### Using the MancalaDomainForwardInitializationComplete JAR
+
+Check the version of your local *maven-install-plugin* with the following command:
+
+    C\>mvn -Dplugin=org.apache.maven.plugins:maven-install-plugin help:describe
+
+The version of your local *maven-install-plugin* should be 2.5 or higher. If this is not the case use the link below to download a newer version of this plugin
+
+==> [Maven-Install-Plugin](https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/)
+
+Download both the JAR and the POM file and than use the following command to install this new version:
+
+    C\>mvn install:install-file -Dfile=<path-to-file> -DpomFile=<path-to-pomfile>
+
+PS: This wil only install a newer version of the maven-install-plugin to be used on the commandline, and does NOT automatically update Maven to use this new version of the maven-install-plugin (if you want Maven to use this newer version you need to configure Maven to use this newer version, which we won't further discuss here).

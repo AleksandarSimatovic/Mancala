@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mancala</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div id="app">
+            <start-screen
+                v-if="!gameStarted"
+                v-on:players-confirmed="startGame">
+            </start-screen>
+            
+            <game-screen
+                v-else
+                v-bind:game-state="gameState">
+            </game-screen>
+        </div>
+
+        <script>
+
+            /**
+             * The screen shown before the game starts, prompting players to enter their names.
+             */
+            Vue.component('start-screen', {
+                data() {
+                    return {
+                        playerOne: undefined,
+                        playerTwo: undefined,
+                        errorMessage: "",
+                    }
+                },
+                template: `
+                    <div class="loginDiv">
+
+                        <div class="loginMancala">
+                        </div>
+
+                        <div id="errorLogin">
+                            {{ errorMessage }} <br>
+                        </div>
+
+                        <input type="text"
+                            placeholder="Player 1 name"
+                            v-model="playerOne" />
+
+                        <input type="text"
+                            placeholder="Player 2 name"
+                            v-model="playerTwo" />
+
+                        <button id="startBtn" v-on:click="confirmPlayers">Start</button>
+                    </div>
+                `,
+                methods: {
+                    confirmPlayers() {
+                        if (!this.playerOne) {
+                            this.errorMessage = "Player 1 name is required";
+                            return;
+                        }
+
+                        if (!this.playerTwo) {
+                            this.errorMessage = "Player 2 name is required";
+                            return;
+                        }
+
+                        this.errorMessage = "";
+
+                        this.$emit('players-confirmed', this.playerOne, this.playerTwo);
+                    }
+                }
+            });
+
+            Vue.component('game-screen', {
+                props: [ 'gameState' ],
+                template: `
+                    <div id="backGround">
+                        <div id="playersPlaying">
+                            {{ gameState.players[0].name }} vs {{ gameState.players[1].name }}
+                        </div>
+                        <!-- Your game board (based on the game state) goes here -->
+
+                        <div class="grid-container" id="players">
+                             <div v-for="pit in gameState.players[1].pits.slice().reverse()" v-bind:id="'pit' + pit.index" class="pitDiv">
+                                <playerBowl
+                                    :index="pit.index"
+                                    :value="pit.nr_of_stones">
+                                </playerBowl>
+                            </div>
+
+                             <div v-for="pit in gameState.players[0].pits"  v-bind:id="'pit' + pit.index" class="pitDiv">
+                                <playerBowl
+                                    :index="pit.index"
+                                    :value="pit.nr_of_stones">
+                                </playerBowl>
+                            </div>
+                        </div>
+
+                        <div id="playerTurn">
+                            <playerTurn
+                                 :gameState="gameState"
+                                 :playerIndex="0">
+                            </playerTurn>
+                            <playerTurn
+                                 :gameState="gameState"
+                                 :playerIndex="1">
+                            </playerTurn>
+                        </div>
+
+                        <div id="winnerMSG">
+                            <endGame
+                                     :gameState="gameState">
+                            </endGame>
+                        </div>
+                    </div>
+                `,
+            });
+
+            Vue.component('playerBowl', {
+                props: [ 'index', 'value' ],
+                template: `
+                    <button
+                        class="btnPit"
+                        :index="index"
+                        v-on:click="clickPit">
+                        {{value}}
+                    </button>
+                `,
+
+                methods: {
+                    clickPit(event) {
+                        app.playPit(event.target.attributes.index.value);
+                    }
+                }
+            });
+
+            Vue.component('playerTurn', {
+                props: [ 'gameState', 'playerIndex' ],
+                template: `
+                    <div v-if="gameState.gameStatus.endOfGame == 'false'">
+                        <div v-if="gameState.players[playerIndex].hasTurn == true">
+                            Turn: {{ gameState.players[playerIndex].name }}
+                        </div>
+                    </div>
+                `
+            });
+
+            Vue.component('endGame', {
+                props: [ 'gameState' ],
+                template: `
+                    <div>
+                        <div v-if="gameState.gameStatus.endOfGame == 'true'">
+                            <div v-if="gameState.players[0].pits[6].nr_of_stones == gameState.players[1].pits[6].nr_of_stones">
+                                It's a tie!
+                            </div>
+                            <div v-else>
+                                {{gameState.gameStatus.winner}} has won!
+                            </div>
+                        </div>
+                    </div>
+                `
+            });
+
+
+            const app = new Vue({
+                el: '#app',
+
+                data: {
+                    gameState: undefined,
+                },
+
+                computed: {
+                    gameStarted() {
+                        return this.gameState != undefined;
+                    }
+                },
+
+                methods: {
+                    async startGame(playerOne, playerTwo) {
+                        const response = await fetch('api/players', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/json',
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ nameplayer1: playerOne , nameplayer2: playerTwo })
+                        });
+                        const gameState = await response.json();
+
+                        this.gameState = gameState;
+                    },
+
+                    async playPit(index) {
+                        const response = await fetch('api/play/' + index, {
+                            method: 'PUT',
+                            headers: {'Accept': 'application/json'}
+                        });
+
+                        if(!response.ok) {
+                            console.log(response.status + " " + response.statusText + " " + await response.text());
+                            return;
+                        }
+
+                        const gameState = await response.json();
+                        this.gameState = gameState;
+                    },
+
+                }
+            });
+        
+        </script>
+
+    </body>
+</html>
