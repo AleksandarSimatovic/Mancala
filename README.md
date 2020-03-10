@@ -10,11 +10,6 @@ Use Maven to compile/build/run your project
 
 ### Run the MancalaAPI project
 
-Go to the directory where you'll find the MancalaDomainForwardInitializationComplete JAR and run the following command to install this JAR:
-
-    C\>mvn org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install-file -Dfile=MancalaDomain-1.0.0-SNAPSHOT.jar
-    (this is for version *3.0.0-M1* of the *maven-install-plugin*)
-
 The HTTP port used in this project is defined within the projects POM, so if port 80 is already in use you can change the portnumber here. From within the MancalaAPI project run the following commands:
 
     C\>mvn clean package
