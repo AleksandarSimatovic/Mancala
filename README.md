@@ -18,4 +18,4 @@ The HTTP port used in this project is defined within the projects POM, so if por
 Now that the MancalaAPI project is running you can use Postman to test it or go to:
 
     http://localhost:4000/mancala
-	(add a portnumber to *localhost* if you've changed the port in the projects POM)
+	(Change the portnumber if you've changed the port in the projects POM)
