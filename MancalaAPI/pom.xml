@@ -92,7 +92,7 @@
 				<version>${jettyVersion}</version>
 				<configuration>
 					<httpConnector>
-						<port>80</port>
+						<port>4000</port>
 					</httpConnector>
 					<webApp>
 						<contextPath>/mancala</contextPath>
