@@ -1,8 +1,5 @@
 # Mancala MVC Java
 
-Read this readme carefully before you start working on the Mancala MVC assignment.
-
-
 Maven
 -----
 
